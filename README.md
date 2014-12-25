@@ -29,7 +29,7 @@ A estrutura inicial do seu projeto será simples, como segue o exemplo abaixo:
         &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta charset=&quot;UTF-8&quot;&gt;<br/>
         &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;&lt;/title&gt;<br/>
     &nbsp;&nbsp;&lt;/head&gt;<br/>
-    &nbsp;&nbsp;&lt;body&gt;<br/>&lt;?php<br/>include_once './myCLASS/dbMap_PHP.php';<br/>include_once './myCLASS/dbcasstest_Map.php';<br/>?&gt;<br/>
+    &nbsp;&nbsp;&lt;body&gt;<br/>&lt;?php<br/>include_once './myCLASS/dbMap_PHP.php';<br/>echo myDbMap::Fn_dbMap("./myCLASS","localhost","root","","dbcasstest");<br/>?&gt;<br/>
     &nbsp;&nbsp;&lt;/body&gt;<br/>
 &lt;/html&gt;<br/>
 
