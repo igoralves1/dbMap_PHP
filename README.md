@@ -13,3 +13,25 @@ para mapear a base de dados que será enviada como parâmetro do método <em><st
 dinamicamente, este método irá criar classes e métodos que perimitirão a criação de objetos HTML ou HTML5 já preparados para BOOTSTRAP 3, jQuery com AJAX.
 Esses métodos perimitirão a criação de objetos "input" ou "select" com pouca ou nenhuma modificação. Cada objeto do DOM possuirá um id único, no seguinte formato: id="tipo_nomeDaTabela_nomeDoCampo".
 <p style="color:blue">Se o desenvolvedor desejar modificar o id, isso poderá ser feito de maneira simples, bem como para a criação de classes e atributos dos elementos HTML/HTML5 do DOM.</p>
+
+A estrutura inicial do seu projeto será simples, como segue o exemplo abaixo:
+-root (nome do meu projeto) (http://localhost/nomeDoMeuProjeto/start.php)
+    |__myCLASS
+                |___dbMap_PHP.php (classe que vc irá copiar e colar ou fazer o download)
+    |__start.php.
+
+<code>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <?php
+        include_once './myCLASS/dbMap_PHP.php';
+        include_once './myCLASS/dbcasstest_Map.php';
+        ?>
+    </body>
+</html>
+<code>
