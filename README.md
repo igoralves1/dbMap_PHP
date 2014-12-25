@@ -20,18 +20,36 @@ A estrutura inicial do seu projeto será simples, como segue o exemplo abaixo:
                 |___dbMap_PHP.php (classe que vc irá copiar e colar ou fazer o download)
     |__start.php.
 
+
+
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;meta charset=&quot;UTF-8&quot;&gt;
+        &lt;title&gt;&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
 <code>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
-    <body>
         <?php
         include_once './myCLASS/dbMap_PHP.php';
         include_once './myCLASS/dbcasstest_Map.php';
         ?>
-    </body>
-</html>
 <code>
+    &lt;/body&gt;
+&lt;/html&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
