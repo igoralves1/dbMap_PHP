@@ -12,17 +12,16 @@ Depois de criada a nossa base de dados relacional em MySQL, precisamos criar obj
 para mapear a base de dados que será enviada como parâmetro do método <em><strong>myDbMap::Fn_dbMap</strong>(<span style="color:blue">$savePath</span>, $dsn, $username, $password, $db);</em>. Em seguida,
 dinamicamente, este método irá criar classes e métodos que perimitirão a criação de objetos HTML ou HTML5 já preparados para BOOTSTRAP 3, jQuery com AJAX.
 Esses métodos perimitirão a criação de objetos "input" ou "select" com pouca ou nenhuma modificação. Cada objeto do DOM possuirá um id único, no seguinte formato: id="tipo_nomeDaTabela_nomeDoCampo".
-<p style="color:blue">Se o desenvolvedor desejar modificar o id, isso poderá ser feito de maneira simples, bem como para a criação de classes e atributos dos elementos HTML/HTML5 do DOM.</p>
+<p>Se o desenvolvedor desejar modificar o id, isso poderá ser feito de maneira simples, bem como para a criação de classes e atributos dos elementos HTML/HTML5 do DOM.</p>
 
-A estrutura inicial do seu projeto será simples, como segue o exemplo abaixo:
--root (nome do meu projeto) (http://localhost/nomeDoMeuProjeto/start.php)
-    |__myCLASS
-                |___dbMap_PHP.php (classe que vc irá copiar e colar ou fazer o download)
-    |__start.php.
+<p>A estrutura inicial do seu projeto será simples, como segue o exemplo abaixo:</p>
+<p>-root (nome do meu projeto) (http://localhost/nomeDoMeuProjeto/start.php)</p>
+<p>    |__myCLASS</p>
+<p>                |___dbMap_PHP.php (classe que vc irá copiar e colar ou fazer o download)</p>
+<p>    |__start.php.</p>
 
 
 
-<code>
 &lt;!DOCTYPE html&gt;<br/>
 &lt;html&gt;<br/>
     &nbsp;&nbsp;&lt;head&gt;<br/>
@@ -32,7 +31,7 @@ A estrutura inicial do seu projeto será simples, como segue o exemplo abaixo:
     &nbsp;&nbsp;&lt;body&gt;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;?php<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;include_once './myCLASS/dbMap_PHP.php';<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo myDbMap::Fn_dbMap($savePath, $dsn, $username, $password, $db);<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;?&gt;<br/>
     &nbsp;&nbsp;&lt;/body&gt;<br/>
 &lt;/html&gt;<br/>
-</code>
+
 
 
 
