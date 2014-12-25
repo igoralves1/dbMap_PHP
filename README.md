@@ -29,8 +29,7 @@ A estrutura inicial do seu projeto será simples, como segue o exemplo abaixo:
         &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta charset=&quot;UTF-8&quot;&gt;<br/>
         &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;&lt;/title&gt;<br/>
     &nbsp;&nbsp;&lt;/head&gt;<br/>
-    &nbsp;&nbsp;&lt;body&gt;<br/>
-
+    &nbsp;&nbsp;&lt;body&gt;<br/><br/><br/><br/><br/><br/><br/>
     &nbsp;&nbsp;&lt;/body&gt;<br/>
 &lt;/html&gt;<br/>
 
