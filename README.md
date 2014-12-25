@@ -31,10 +31,10 @@ A estrutura inicial do seu projeto será simples, como segue o exemplo abaixo:
     &nbsp;&nbsp;&lt;/head&gt;<br/>
     &nbsp;&nbsp;&lt;body&gt;<br/>
 
-        &lt;?php<br/>
-        include_once './myCLASS/dbMap_PHP.php';<br/>
-        include_once './myCLASS/dbcasstest_Map.php';<br/>
-        ?&gt;<br/>
+        &lt;?php
+        include_once './myCLASS/dbMap_PHP.php';
+        include_once './myCLASS/dbcasstest_Map.php';
+        ?&gt;
 
     &nbsp;&nbsp;&lt;/body&gt;<br/>
 &lt;/html&gt;<br/>
