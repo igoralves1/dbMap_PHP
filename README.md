@@ -16,12 +16,12 @@ Esses métodos perimitirão a criação de objetos "input" ou "select" com pouca
 
 A estrutura inicial do seu projeto será simples, como segue o exemplo abaixo:<br/>
 -root (nome do meu projeto) (http://localhost/nomeDoMeuProjeto/start.php)<br/>
-    |__myCLASS<br/>
-               |___dbMap_PHP.php (classe que vc irá copiar e colar ou fazer o download)<br/>
-   |__start.php.<br/>
+&nbsp;&nbsp;|__myCLASS<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;|___dbMap_PHP.php (classe que vc irá copiar e colar ou fazer o download)<br/>
+&nbsp;&nbsp;|__start.php.<br/>
 
 
-
+//start.php<br/>
 &lt;!DOCTYPE html&gt;<br/>
 &lt;html&gt;<br/>
     &nbsp;&nbsp;&lt;head&gt;<br/>
