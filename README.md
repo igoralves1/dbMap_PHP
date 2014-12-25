@@ -8,4 +8,6 @@ facilitate the code, when we are coding for a large project.The aim of this proj
 Inside of each class, we can find general insert, delet and update methods that acts directlly over his tabes. 
 
 Portuguese:
-Classe criada em PHP para mapear uma base de dados relacionais e transformá-la em objetos HTML ou HTML5 já preparados para BOOTSTRAP 3, jQuery com AJAX
+Depois de criada a nossa base de dados (MySQL), precisamos criar objetos HTML para entrar os dados na nossa base de dados. Esta classe foi desenvolvida
+para mapear a base de dados que será enviada como parâmetro do método <em>myDbMap::Fn_dbMap($savePath, $dsn, $username, $password, $db);</em> e em seguida,
+dinamicamente criar classes e métodos que perimitirão a criação de objetos HTML ou HTML5 já preparados para BOOTSTRAP 3, jQuery com AJAX.
