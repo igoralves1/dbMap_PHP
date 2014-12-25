@@ -30,12 +30,12 @@ A estrutura inicial do seu projeto será simples, como segue o exemplo abaixo:
         &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;&lt;/title&gt;<br/>
     &nbsp;&nbsp;&lt;/head&gt;<br/>
     &nbsp;&nbsp;&lt;body&gt;<br/>
-<code>
+
         &lt;?php<br/>
         include_once './myCLASS/dbMap_PHP.php';<br/>
         include_once './myCLASS/dbcasstest_Map.php';<br/>
         ?&gt;<br/>
-</code>
+
     &nbsp;&nbsp;&lt;/body&gt;<br/>
 &lt;/html&gt;<br/>
 
