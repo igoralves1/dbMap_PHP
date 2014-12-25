@@ -21,7 +21,7 @@ A estrutura inicial do seu projeto será simples, como segue o exemplo abaixo:<b
 &nbsp;&nbsp;&nbsp;&nbsp;|__<strong>start.php</strong><br/>
 
 
-//start.php<br/>
+//Conteúdo do arquivo start.php<br/>
 &lt;!DOCTYPE html&gt;<br/>
 &lt;html&gt;<br/>
     &nbsp;&nbsp;&lt;head&gt;<br/>
