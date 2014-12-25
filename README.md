@@ -9,5 +9,5 @@ Inside of each class, we can find general insert, delet and update methods that 
 
 Portuguese:
 Depois de criada a nossa base de dados (MySQL), precisamos criar objetos HTML para entrar os dados na nossa base de dados. Esta classe foi desenvolvida
-para mapear a base de dados que será enviada como parâmetro do método <em>myDbMap::Fn_dbMap($savePath, $dsn, $username, $password, $db);</em> e em seguida,
+para mapear a base de dados que será enviada como parâmetro do método <em><strong>myDbMap::Fn_dbMap</strong>($savePath, $dsn, $username, $password, $db);</em> e em seguida,
 dinamicamente criar classes e métodos que perimitirão a criação de objetos HTML ou HTML5 já preparados para BOOTSTRAP 3, jQuery com AJAX.
