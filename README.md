@@ -12,4 +12,4 @@ Depois de criada a nossa base de dados relacional em MySQL, precisamos criar obj
 para mapear a base de dados que será enviada como parâmetro do método <em><strong>myDbMap::Fn_dbMap</strong>(<span style="color:blue">$savePath</span>, $dsn, $username, $password, $db);</em>. Em seguida,
 dinamicamente, este método irá criar classes e métodos que perimitirão a criação de objetos HTML ou HTML5 já preparados para BOOTSTRAP 3, jQuery com AJAX.
 Esses métodos perimitirão a criação de objetos "input" ou "select" com pouca ou nenhuma modificação. Cada objeto do DOM possuirá um id único, no seguinte formato: id="tipo_nomeDaTabela_nomeDoCampo".
-Se o desenvolvedor desejar modificar o id, isso poderá ser feito de maneira simples, bem como para a criação de classes e atributos dos elementos HTML/HTML5 do DOM.
+<p style="color:blue">Se o desenvolvedor desejar modificar o id, isso poderá ser feito de maneira simples, bem como para a criação de classes e atributos dos elementos HTML/HTML5 do DOM.</p>
