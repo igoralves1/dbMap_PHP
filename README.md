@@ -8,6 +8,6 @@ facilitate the code, when we are coding for a large project.The aim of this proj
 Inside of each class, we can find general insert, delet and update methods that acts directlly over his tabes. 
 
 <strong>Português</strong>:<br/>
-Depois de criada a nossa base de dados (MySQL), precisamos criar objetos HTML para entrar os dados na nossa base de dados. Esta classe foi desenvolvida
-para mapear a base de dados que será enviada como parâmetro do método <em><strong>myDbMap::Fn_dbMap</strong>($savePath, $dsn, $username, $password, $db);</em> e em seguida,
-dinamicamente criar classes e métodos que perimitirão a criação de objetos HTML ou HTML5 já preparados para BOOTSTRAP 3, jQuery com AJAX.
+Depois de criada a nossa base de dados (MySQL), precisamos criar objetos HTML ou HTML5 para entrar os dados na nossa base de dados. Esta classe foi desenvolvida
+para mapear a base de dados que será enviada como parâmetro do método <em><strong>myDbMap::Fn_dbMap</strong>($savePath, $dsn, $username, $password, $db);</em>. Em seguida,
+dinamicamente, este método irá criar classes e métodos que perimitirão a criação de objetos HTML ou HTML5 já preparados para BOOTSTRAP 3, jQuery com AJAX.
