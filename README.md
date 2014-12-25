@@ -25,18 +25,18 @@ A estrutura inicial do seu projeto será simples, como segue o exemplo abaixo:
 
 &lt;!DOCTYPE html&gt;<br/>
 &lt;html&gt;<br/>
-    &lt;head&gt;<br/>
-        &lt;meta charset=&quot;UTF-8&quot;&gt;<br/>
-        &lt;title&gt;&lt;/title&gt;<br/>
-    &lt;/head&gt;<br/>
-    &lt;body&gt;<br/>
+    &nbsp;&lt;head&gt;<br/>
+        &nbsp;&nbsp;&lt;meta charset=&quot;UTF-8&quot;&gt;<br/>
+        &nbsp;&nbsp;&lt;title&gt;&lt;/title&gt;<br/>
+    &nbsp;&lt;/head&gt;<br/>
+    &nbsp;&lt;body&gt;<br/>
 <code>
         <?php
         include_once './myCLASS/dbMap_PHP.php';
         include_once './myCLASS/dbcasstest_Map.php';
         ?>
 <code>
-    &lt;/body&gt;<br/>
+    &nbsp;&lt;/body&gt;<br/>
 &lt;/html&gt;<br/>
 
 
