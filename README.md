@@ -30,7 +30,7 @@ A estrutura inicial do seu projeto será simples, como segue o exemplo abaixo:<b
     &nbsp;&nbsp;&lt;/head&gt;<br/>
     &nbsp;&nbsp;&lt;body&gt;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;?php<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;include_once './myCLASS/dbMap_PHP.php';<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo myDbMap::Fn_dbMap($savePath, $dsn, $username, $password, $db);<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//Ex: echo myDbMap::Fn_dbMap("./myCLASS","localhost","root","passwd1234","mydbname");<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//Ex: echo myDbMap::Fn_dbMap("./myCLASS","localhost","root","passwd1234","mydbname");<br/>  
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//Será criada um arquivo index.php na raiz do projeto e um arquivo "mydbname.php", que será o mapa da sua base de dados, dentro da pasta "myCLASS".
     ?&gt;<br/>
     &nbsp;&nbsp;&lt;/body&gt;<br/>
