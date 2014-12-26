@@ -1,11 +1,5 @@
 <?php
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  * Description of dbMap_PHP
  *Esta classe irá criar uma outra classe que será o mapa da base de dados selecionada pelo usuário.
@@ -965,24 +959,7 @@ foreach ($dbEst as $key => $value) {
            
            
            
-                         //B stands for BOOTSTRAP
-                         $str1.="static function InputB_txt_$fieldName(array \$attr=NULL){\n";         
-                                     $str1.="\$arrAttrInt=array();\n";
-                                     $str1.="\$arrAttrInt[\"id\"]=\"txt_$fieldName\";\n";
-                                     $str1.="\$arrAttrInt[\"class\"]=\"\";\n";
-                                     $str1.="\$arrAttrInt[\"type\"]=\"text\";\n";
-                                     $str1.="\$arrAttrInt[\"value\"]=\"\";\n";
-                                     
-                              $str1.="if(is_null(\$attr)){\n";
-                                   $str1.="\$arrAttr=\$arrAttrInt;\n";
-                               $str1.="}\n";
-                               $str1.="else{\n";
-                                    $str1.="\$arrAttr=  array_merge(\$arrAttrInt,\$attr);\n";
-                               $str1.="}\n";
-                                
-                               
-                             $str1.="return \"<label class=\\\"input\\\">\".dbBase::HTML_Input(\$arrAttr).\"</label>\";";
-                        $str1.="\n}\n";
+
                
           }
           
@@ -1013,6 +990,7 @@ foreach ($dbEst as $key => $value) {
      ///////////////////////////////////////////////////////////////////////////////////////////////////
      $filemane=$db."_Map";//A nova classe terá o nome da base de dados mapeada
      $fileExtent="php";
+     
      return self::createSaveFileDir($savePath, $filemane, $str.$str1."?>", $fileExtent);
     }
 }

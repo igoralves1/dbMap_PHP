@@ -1,36 +1,51 @@
 <!DOCTYPE html>
 <!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
+Esta é o sua página start.php. 
 -->
 <html>
     <head>
-        <meta charset="UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title></title>
+        <!-- CDN - CSS Bootstrap necessário -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     </head>
     <body>
-        <?php
-        //Chama a classe que vai ler a base de dados e vai gerar a outra classe, com o nome da base de dados lida no 
-        //endereço especificado pelo usuário.
-        //Esta é uma classe estática, portanto não precisa de um objeto para se acessar os métodos da classe.
-        #include_once './myCLASS/dbMap_PHP.php';
-        //Chama o método que vai ler o banco de dados, passando alguns parâmetros.
-        //$savePath => Local onde será registardo a nova classe,
-        //$dsn => path do servidor onde está a base de dados (localhost ???),
-        //$username => nome do usuário para acessar a base de dados,
-        //$password => password de acesso para a abase de dados ,
-        //$db => nome do banco de dados a ser mapeado
-        #echo myDbMap::Fn_dbMap("./myCLASS","localhost","root","","dbcasstest");
-        include_once './myCLASS/dbcasstest_Map.php';
         
-        echo USER_T::Input_txt_NAME();
-        echo USER_T::Input_txt_NAME(array("class"=>"form1"));
-        echo USER_T::Input_txt_NAME(array("id"=>"myId","class"=>"form2 form3 form4"));
+     
         
-        echo USER_T::InputB_txt_NAME(array("id"=>"myId","class"=>"form2 form3 form4"));
+        <div class="">
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputFile">File input</label>
+                    <input type="file" id="exampleInputFile">
+                    <p class="help-block">Example block-level help text here.</p>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> Check me out
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
         
         
-        ?>
+        
+        
+        
+        <!-- CDN -  Js jQuery necessário -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <!-- CDN -  Js Bootstrap necessário -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>    
     </body>
 </html>
